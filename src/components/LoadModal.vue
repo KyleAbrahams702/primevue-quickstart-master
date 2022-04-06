@@ -1,7 +1,7 @@
 <template>
   <div class="container">
       <Dialog :modal='true' v-model:visible="display">
-        <FileUpload />
+        <FileUpload  />
       </Dialog>
   </div>
 </template>
